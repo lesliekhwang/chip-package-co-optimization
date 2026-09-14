@@ -1,0 +1,96 @@
+[metadata]
+name = "Demo Chiplet Architecture I"
+version = "1"
+author = "Arizona State University"
+date = 2026-07-26
+remark = "4x CCD, 2x IOD, 4x HBM demo configuration"
+
+[CCD1]
+dmx = 10
+dmy = 8
+wsn = 1.5
+wse = 1.5
+wss = 1.5
+wsw = 1.5
+adj = ["IOD1"]
+
+[CCD2]
+dmx = 10
+dmy = 8
+wsn = 1.5
+wse = 1.5
+wss = 1.5
+wsw = 1.5
+adj = ["IOD2"]
+
+[CCD3]
+dmx = 10
+dmy = 8
+wsn = 1.5
+wse = 1.5
+wss = 1.5
+wsw = 1.5
+adj = ["IOD1"]
+
+[CCD4]
+dmx = 10
+dmy = 8
+wsn = 1.5
+wse = 1.5
+wss = 1.5
+wsw = 1.5
+adj = ["IOD2"]
+
+[IOD1]
+dmx = 15
+dmy = 12
+wsn = 2
+wse = 2
+wss = 2
+wsw = 2
+adj = ["HBM1", "CCD1", "IOD2", "HBM2", "CCD3"]
+
+[IOD2]
+dmx = 15
+dmy = 12
+wsn = 2
+wse = 2
+wss = 2
+wsw = 2
+adj = ["HBM3", "CCD2", "IOD1", "HBM4", "CCD4"]
+
+[HBM1]
+dmx = 8
+dmy = 12
+wsn = 1
+wse = 1
+wss = 1
+wsw = 1
+adj = ["IOD1"]
+
+[HBM2]
+dmx = 8
+dmy = 12
+wsn = 1
+wse = 1
+wss = 1
+wsw = 1
+adj = ["IOD1"]
+
+[HBM3]
+dmx = 8
+dmy = 12
+wsn = 1
+wse = 1
+wss = 1
+wsw = 1
+adj = ["IOD2"]
+
+[HBM4]
+dmx = 8
+dmy = 12
+wsn = 1
+wse = 1
+wss = 1
+wsw = 1
+adj = ["IOD2"]
