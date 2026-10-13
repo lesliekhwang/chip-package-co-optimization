@@ -1,0 +1,90 @@
+{
+  "interposer": {
+    "aspect_ratio": [
+      0.25,
+      4.0
+    ]
+  },
+  "Virtuvian": {
+    "dim": [
+      31.4,
+      14.5
+    ],
+    "slack": [
+      0,
+      91.06
+    ],
+    "adjacency": [
+      "HBM0",
+      "HBM1",
+      "HBM2",
+      "HBM3",
+      "Nimbus"
+    ]
+  },
+  "Nimbus": {
+    "dim": [
+      10.5,
+      16.0
+    ],
+    "slack": [
+      0,
+      33.6
+    ],
+    "adjacency": [
+      "Virtuvian"
+    ]
+  },
+  "HBM0": {
+    "dim": [
+      7.75,
+      11.87
+    ],
+    "slack": [
+      0,
+      18.4
+    ],
+    "adjacency": [
+      "Virtuvian"
+    ]
+  },
+  "HBM1": {
+    "dim": [
+      7.75,
+      11.87
+    ],
+    "slack": [
+      0,
+      18.4
+    ],
+    "adjacency": [
+      "Virtuvian"
+    ]
+  },
+  "HBM2": {
+    "dim": [
+      7.75,
+      11.87
+    ],
+    "slack": [
+      0,
+      18.4
+    ],
+    "adjacency": [
+      "Virtuvian"
+    ]
+  },
+  "HBM3": {
+    "dim": [
+      7.75,
+      11.87
+    ],
+    "slack": [
+      0,
+      18.4
+    ],
+    "adjacency": [
+      "Virtuvian"
+    ]
+  }
+}

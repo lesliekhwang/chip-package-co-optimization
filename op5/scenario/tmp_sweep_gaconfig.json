@@ -1,0 +1,57 @@
+{
+    "immigrant_probability": 0.0585,
+    "algorithm": {
+        "population_size": 250,
+        "max_generations": 280,
+        "chunk": 100,
+        "device": "cuda"
+    },
+    "topology": {
+        "crossover": {
+            "probability": 0.7931
+        },
+        "mutation": {
+            "probability": 0.7567,
+            "weights": {
+                "swap": 0.0773,
+                "insert": 0.2322,
+                "inversion": 0.2803,
+                "joint_sequence_swap": 0.2574,
+                "scramble": 0.1527
+            }
+        }
+    },
+    "slack": {
+        "crossover": {
+            "alpha": 0.376,
+            "probability": 0.6857
+        },
+        "mutation": {
+            "probability": 0.6224,
+            "weights": {
+                "noise": 0.4229,
+                "uniform_reset": 0.5771
+            },
+            "params": {
+                "scale": 0.0958
+            }
+        }
+    },
+    "rotation": {
+        "crossover": {
+            "probability": 0.4321
+        },
+        "mutation": {
+            "probability": 0.0958
+        }
+    },
+    "cost": {
+        "warp_grid": [
+            128,
+            128
+        ],
+        "use_hpwl": true,
+        "use_area": true,
+        "use_warpage": true
+    }
+}

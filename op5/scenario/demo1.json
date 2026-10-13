@@ -1,0 +1,55 @@
+{
+  "interposer": {
+    "aspect_ratio": [0.25, 4.0]
+  },
+  "CCD1": {
+    "dim": [10.0, 8.0],
+    "slack": [1.5, 10.0],
+    "adjacency": ["IOD1"]
+  },
+  "CCD2": {
+    "dim": [10.0, 8.0],
+    "slack": [1.5, 10.0],
+    "adjacency": ["IOD2"]
+  },
+  "CCD3": {
+    "dim": [10.0, 8.0],
+    "slack": [1.5, 10.0],
+    "adjacency": ["IOD1"]
+  },
+  "CCD4": {
+    "dim": [10.0, 8.0],
+    "slack": [1.5, 10.0],
+    "adjacency": ["IOD2"]
+  },
+  "IOD1": {
+    "dim": [15.0, 12.0],
+    "slack": [2.0, 15.0],
+    "adjacency": ["HBM1", "CCD1", "IOD2", "HBM2", "CCD3"]
+  },
+  "IOD2": {
+    "dim": [15.0, 12.0],
+    "slack": [2.0, 15.0],
+    "adjacency": ["HBM3", "CCD2", "IOD1", "HBM4", "CCD4"]
+  },
+  "HBM1": {
+    "dim": [8.0, 12.0],
+    "slack": [1.0, 5.0],
+    "adjacency": ["IOD1"]
+  },
+  "HBM2": {
+    "dim": [8.0, 12.0],
+    "slack": [1.0, 5.0],
+    "adjacency": ["IOD1"]
+  },
+  "HBM3": {
+    "dim": [8.0, 12.0],
+    "slack": [1.0, 5.0],
+    "adjacency": ["IOD2"]
+  },
+  "HBM4": {
+    "dim": [8.0, 12.0],
+    "slack": [1.0, 5.0],
+    "adjacency": ["IOD2"]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "interposer": {
+    "aspect_ratio": [
+      0.25,
+      4.0
+    ]
+  },
+  "CPU0": {
+    "dim": [
+      8.25,
+      9.0
+    ],
+    "slack": [
+      0.74,
+      14.85
+    ],
+    "adjacency": [
+      "DRAM0",
+      "CPU1",
+      "CPU3"
+    ]
+  },
+  "CPU1": {
+    "dim": [
+      8.25,
+      9.0
+    ],
+    "slack": [
+      0.74,
+      14.85
+    ],
+    "adjacency": [
+      "DRAM1",
+      "CPU0",
+      "CPU2"
+    ]
+  },
+  "CPU2": {
+    "dim": [
+      8.25,
+      9.0
+    ],
+    "slack": [
+      0.74,
+      14.85
+    ],
+    "adjacency": [
+      "DRAM2",
+      "CPU1",
+      "CPU3"
+    ]
+  },
+  "CPU3": {
+    "dim": [
+      8.25,
+      9.0
+    ],
+    "slack": [
+      0.74,
+      14.85
+    ],
+    "adjacency": [
+      "DRAM3",
+      "CPU0",
+      "CPU2"
+    ]
+  },
+  "DRAM0": {
+    "dim": [
+      8.75,
+      8.75
+    ],
+    "slack": [
+      0.77,
+      15.31
+    ],
+    "adjacency": [
+      "CPU0"
+    ]
+  },
+  "DRAM1": {
+    "dim": [
+      8.75,
+      8.75
+    ],
+    "slack": [
+      0.77,
+      15.31
+    ],
+    "adjacency": [
+      "CPU1"
+    ]
+  },
+  "DRAM2": {
+    "dim": [
+      8.75,
+      8.75
+    ],
+    "slack": [
+      0.77,
+      15.31
+    ],
+    "adjacency": [
+      "CPU2"
+    ]
+  },
+  "DRAM3": {
+    "dim": [
+      8.75,
+      8.75
+    ],
+    "slack": [
+      0.77,
+      15.31
+    ],
+    "adjacency": [
+      "CPU3"
+    ]
+  }
+}
