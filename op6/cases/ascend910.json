@@ -1,0 +1,66 @@
+{
+    "HBM_0": {
+        "adjacency": [
+            "Virtuvian_0"
+        ],
+        "power": 25.0,
+        "dim": [
+            8.0,
+            12.0
+        ]
+    },
+    "HBM_1": {
+        "adjacency": [
+            "Virtuvian_0"
+        ],
+        "power": 25.0,
+        "dim": [
+            8.0,
+            12.0
+        ]
+    },
+    "HBM_2": {
+        "adjacency": [
+            "Virtuvian_0"
+        ],
+        "power": 25.0,
+        "dim": [
+            8.0,
+            12.0
+        ]
+    },
+    "HBM_3": {
+        "adjacency": [
+            "Virtuvian_0"
+        ],
+        "power": 25.0,
+        "dim": [
+            8.0,
+            12.0
+        ]
+    },
+    "Nimbus_0": {
+        "adjacency": [
+            "Virtuvian_0"
+        ],
+        "power": 14.0,
+        "dim": [
+            10.5,
+            16.0
+        ]
+    },
+    "Virtuvian_0": {
+        "adjacency": [
+            "HBM_0",
+            "HBM_1",
+            "HBM_2",
+            "HBM_3",
+            "Nimbus_0"
+        ],
+        "power": 256.0,
+        "dim": [
+            31.4,
+            14.5
+        ]
+    }
+}

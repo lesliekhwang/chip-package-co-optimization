@@ -1,0 +1,32 @@
+{
+    "CPU1_0": {
+        "wirelength_weight": 1.2,
+        "min_slack": [0.2, 0.2, 0.2, 0.2],
+        "max_slack": [4.0, 4.0, 4.0, 4.0]
+    },
+    "GPU_0": {
+        "wirelength_weight": 1.5,
+        "min_slack": [0.3, 0.3, 0.3, 0.3],
+        "max_slack": [5.0, 5.0, 5.0, 5.0]
+    },
+    "GPU_1": {
+        "wirelength_weight": 1.5,
+        "min_slack": [0.3, 0.3, 0.3, 0.3],
+        "max_slack": [5.0, 5.0, 5.0, 5.0]
+    },
+    "HBM_0": {
+        "wirelength_weight": 1.0,
+        "min_slack": [0.1, 0.1, 0.1, 0.1],
+        "max_slack": [2.0, 2.0, 2.0, 2.0]
+    },
+    "HBM_1": {
+        "wirelength_weight": 1.0,
+        "min_slack": [0.1, 0.1, 0.1, 0.1],
+        "max_slack": [2.0, 2.0, 2.0, 2.0]
+    },
+    "HBM_2": {
+        "wirelength_weight": 1.0,
+        "min_slack": [0.1, 0.1, 0.1, 0.1],
+        "max_slack": [2.0, 2.0, 2.0, 2.0]
+    }
+}

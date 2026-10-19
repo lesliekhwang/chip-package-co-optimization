@@ -1,0 +1,32 @@
+{
+    "HBM_0": {
+        "wirelength_weight": 1.0,
+        "min_slack": [0.1, 0.1, 0.1, 0.1],
+        "max_slack": [2.0, 2.0, 2.0, 2.0]
+    },
+    "HBM_1": {
+        "wirelength_weight": 1.0,
+        "min_slack": [0.1, 0.1, 0.1, 0.1],
+        "max_slack": [2.0, 2.0, 2.0, 2.0]
+    },
+    "HBM_2": {
+        "wirelength_weight": 1.0,
+        "min_slack": [0.1, 0.1, 0.1, 0.1],
+        "max_slack": [2.0, 2.0, 2.0, 2.0]
+    },
+    "HBM_3": {
+        "wirelength_weight": 1.0,
+        "min_slack": [0.1, 0.1, 0.1, 0.1],
+        "max_slack": [2.0, 2.0, 2.0, 2.0]
+    },
+    "Nimbus_0": {
+        "wirelength_weight": 1.25,
+        "min_slack": [0.15, 0.15, 0.15, 0.15],
+        "max_slack": [3.0, 3.0, 3.0, 3.0]
+    },
+    "Virtuvian_0": {
+        "wirelength_weight": 2.0,
+        "min_slack": [0.3, 0.3, 0.3, 0.3],
+        "max_slack": [6.0, 6.0, 6.0, 6.0]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "CPU2_0": {
+        "wirelength_weight": 1.25,
+        "min_slack": [0.15, 0.15, 0.15, 0.15],
+        "max_slack": [3.5, 3.5, 3.5, 3.5]
+    },
+    "CPU2_1": {
+        "wirelength_weight": 1.25,
+        "min_slack": [0.15, 0.15, 0.15, 0.15],
+        "max_slack": [3.5, 3.5, 3.5, 3.5]
+    },
+    "CPU2_2": {
+        "wirelength_weight": 1.25,
+        "min_slack": [0.15, 0.15, 0.15, 0.15],
+        "max_slack": [3.5, 3.5, 3.5, 3.5]
+    },
+    "CPU2_3": {
+        "wirelength_weight": 1.25,
+        "min_slack": [0.15, 0.15, 0.15, 0.15],
+        "max_slack": [3.5, 3.5, 3.5, 3.5]
+    },
+    "DRAM_0": {
+        "wirelength_weight": 1.0,
+        "min_slack": [0.1, 0.1, 0.1, 0.1],
+        "max_slack": [2.0, 2.0, 2.0, 2.0]
+    },
+    "DRAM_1": {
+        "wirelength_weight": 1.0,
+        "min_slack": [0.1, 0.1, 0.1, 0.1],
+        "max_slack": [2.0, 2.0, 2.0, 2.0]
+    },
+    "DRAM_2": {
+        "wirelength_weight": 1.0,
+        "min_slack": [0.1, 0.1, 0.1, 0.1],
+        "max_slack": [2.0, 2.0, 2.0, 2.0]
+    },
+    "DRAM_3": {
+        "wirelength_weight": 1.0,
+        "min_slack": [0.1, 0.1, 0.1, 0.1],
+        "max_slack": [2.0, 2.0, 2.0, 2.0]
+    }
+}

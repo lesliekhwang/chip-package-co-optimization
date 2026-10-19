@@ -1,0 +1,90 @@
+{
+    "CPU2_0": {
+        "adjacency": [
+            "CPU2_1",
+            "CPU2_2",
+            "DRAM_0"
+        ],
+        "power": 150.0,
+        "dim": [
+            8.0,
+            9.0
+        ]
+    },
+    "CPU2_1": {
+        "adjacency": [
+            "CPU2_0",
+            "CPU2_3",
+            "DRAM_1"
+        ],
+        "power": 150.0,
+        "dim": [
+            8.0,
+            9.0
+        ]
+    },
+    "CPU2_2": {
+        "adjacency": [
+            "CPU2_0",
+            "CPU2_3",
+            "DRAM_2"
+        ],
+        "power": 150.0,
+        "dim": [
+            8.0,
+            9.0
+        ]
+    },
+    "CPU2_3": {
+        "adjacency": [
+            "CPU2_1",
+            "CPU2_2",
+            "DRAM_3"
+        ],
+        "power": 150.0,
+        "dim": [
+            8.0,
+            9.0
+        ]
+    },
+    "DRAM_0": {
+        "adjacency": [
+            "CPU2_0"
+        ],
+        "power": 20.0,
+        "dim": [
+            9.0,
+            9.0
+        ]
+    },
+    "DRAM_1": {
+        "adjacency": [
+            "CPU2_1"
+        ],
+        "power": 20.0,
+        "dim": [
+            9.0,
+            9.0
+        ]
+    },
+    "DRAM_2": {
+        "adjacency": [
+            "CPU2_2"
+        ],
+        "power": 20.0,
+        "dim": [
+            9.0,
+            9.0
+        ]
+    },
+    "DRAM_3": {
+        "adjacency": [
+            "CPU2_3"
+        ],
+        "power": 20.0,
+        "dim": [
+            9.0,
+            9.0
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "CCD_0": {
+        "adjacency": ["IOD_0"],
+        "power": 25.0,
+        "dim": [10.7, 6.75]
+    },
+    "CCD_1": {
+        "adjacency": ["IOD_0"],
+        "power": 25.0,
+        "dim": [10.7, 6.75]
+    },
+    "CCD_2": {
+        "adjacency": ["IOD_0"],
+        "power": 25.0,
+        "dim": [10.7, 6.75]
+    },
+    "CCD_3": {
+        "adjacency": ["IOD_0"],
+        "power": 25.0,
+        "dim": [10.7, 6.75]
+    },
+    "CCD_4": {
+        "adjacency": ["IOD_0"],
+        "power": 25.0,
+        "dim": [10.7, 6.75]
+    },
+    "CCD_5": {
+        "adjacency": ["IOD_0"],
+        "power": 25.0,
+        "dim": [10.7, 6.75]
+    },
+    "CCD_6": {
+        "adjacency": ["IOD_0"],
+        "power": 25.0,
+        "dim": [10.7, 6.75]
+    },
+    "CCD_7": {
+        "adjacency": ["IOD_0"],
+        "power": 25.0,
+        "dim": [10.7, 6.75]
+    },
+    "CCD_8": {
+        "adjacency": ["IOD_0"],
+        "power": 25.0,
+        "dim": [10.7, 6.75]
+    },
+    "CCD_9": {
+        "adjacency": ["IOD_0"],
+        "power": 25.0,
+        "dim": [10.7, 6.75]
+    },
+    "CCD_10": {
+        "adjacency": ["IOD_0"],
+        "power": 25.0,
+        "dim": [10.7, 6.75]
+    },
+    "CCD_11": {
+        "adjacency": ["IOD_0"],
+        "power": 25.0,
+        "dim": [10.7, 6.75]
+    },
+    "IOD_0": {
+        "adjacency": [
+            "CCD_0", "CCD_1", "CCD_2", "CCD_3",
+            "CCD_4", "CCD_5", "CCD_6", "CCD_7",
+            "CCD_8", "CCD_9", "CCD_10", "CCD_11"
+        ],
+        "power": 100.0,
+        "dim": [24.79, 16.0]
+    }
+}
