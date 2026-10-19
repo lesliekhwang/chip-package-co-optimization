@@ -1,6 +1,6 @@
 import numpy as np
 
-from mappers.seqpair import decode_sequence_pair_batch
+from rules.seqpair import decode_sequence_pair_batch
 
 def convert_slack_indices_to_floats(
     slack_indices: np.ndarray,

@@ -343,7 +343,7 @@ def creep_mutation(
     shifts = np.where(np.random.rand(4 * n) < prob_positive_shift, 1, -1)
     new_slacks = np.clip(current_slacks + shifts, xl_slack, xu_slack)
 
-    mutated[slack_slice] = new_slacks.astype(np.int16)
+    mutated[slack_slice] = new_slacks
     return mutated
 
 

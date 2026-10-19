@@ -10,7 +10,7 @@ try:
 except ImportError:
     from rules.transforms import convert_slack_indices_to_floats
 
-from mappers.seqpair import decode_sequence_pair_batch
+from rules.seqpair import decode_sequence_pair_batch
 
 
 def visualize_interactive_population(

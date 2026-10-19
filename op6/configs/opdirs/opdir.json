@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "pop_size": 1000,
+  "max_generations": 100,
+  "batch_size": 100,
+  "cpu_workers": 1,
+  "gpu_devices": null,
+  "place_compact": false,
+  "use_cost_wirelength": true,
+  "use_cost_warpage_flatness": true,
+  "use_cost_area": true,
+  "use_cost_maxtemp": true,
+  "use_cost_maxtempgrad": true,
+  "aspect_ratio_bounds": [0.25, 4.0]
+}

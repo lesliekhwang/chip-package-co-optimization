@@ -1,0 +1,14 @@
+{
+  "slack_steps": 10,
+  "prob_ox": 0.8,
+  "prob_blx": 0.8,
+  "prob_hux": 0.5,
+  "prob_mut_swap": 0.2,
+  "prob_mut_joint": 0.2,
+  "prob_mut_rot": 0.2,
+  "prob_mut_creep": 0.3,
+  "prob_immigrant": 0.05,
+  "alpha_blx": 0.5,
+  "prob_seq_choice_x": 0.5,
+  "prob_positive_creep_shift": 0.5
+}

@@ -1,0 +1,68 @@
+{
+    "CPU1_0": {
+        "adjacency": [
+            "GPU_0",
+            "GPU_1",
+            "HBM_0"
+        ],
+        "power": 105.0,
+        "dim": [
+            12.0,
+            12.0
+        ]
+    },
+    "GPU_0": {
+        "adjacency": [
+            "CPU1_0",
+            "GPU_1",
+            "HBM_1"
+        ],
+        "power": 300.0,
+        "dim": [
+            18.0,
+            18.0
+        ]
+    },
+    "GPU_1": {
+        "adjacency": [
+            "CPU1_0",
+            "GPU_0",
+            "HBM_2"
+        ],
+        "power": 300.0,
+        "dim": [
+            18.0,
+            18.0
+        ]
+    },
+    "HBM_0": {
+        "adjacency": [
+            "CPU1_0"
+        ],
+        "power": 25.0,
+        "dim": [
+            8.0,
+            12.0
+        ]
+    },
+    "HBM_1": {
+        "adjacency": [
+            "GPU_0"
+        ],
+        "power": 25.0,
+        "dim": [
+            8.0,
+            12.0
+        ]
+    },
+    "HBM_2": {
+        "adjacency": [
+            "GPU_1"
+        ],
+        "power": 25.0,
+        "dim": [
+            8.0,
+            12.0
+        ]
+    }
+}
